@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <PackageId>S3HttpRangeStream</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Znakes</Authors>
+    <Company>Znakes</Company>
+    <Description>Seekable .NET Stream for reading from S3 presigned URLs using HTTP Range requests. Efficient, streaming-compatible, and great for large files.</Description>
+    <PackageTags>stream s3 aws range http stream-seekable httpclient znakes dotnet nuget presigned seekable</PackageTags>
+    <RepositoryUrl>https://github.com/Znakes/s3-http-range-stream</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
