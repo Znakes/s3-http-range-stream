@@ -6,7 +6,7 @@
     <LangVersion>latest</LangVersion>
 
     <PackageId>S3HttpRangeStream</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Znakes</Authors>
     <Company>Znakes</Company>
     <Description>Seekable .NET Stream for reading from S3 presigned URLs using HTTP Range requests. Efficient, streaming-compatible, and great for large files.</Description>
@@ -14,6 +14,13 @@
     <RepositoryUrl>https://github.com/Znakes/s3-http-range-stream</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="images\icon.png" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
