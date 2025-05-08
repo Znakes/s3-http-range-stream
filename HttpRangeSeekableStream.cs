@@ -26,7 +26,8 @@ public class HttpRangeSeekableStream : Stream
 
     private const int BUFFER_SIZE = 128 * 1024; // Tuned for performance: 128 KB
 
-    private HttpRangeSeekableStream(string url, long length, HttpClient httpClient)
+    /// <inheritdoc />
+    public HttpRangeSeekableStream(string url, long length, HttpClient httpClient)
     {
         _url = url;
         _length = length;
